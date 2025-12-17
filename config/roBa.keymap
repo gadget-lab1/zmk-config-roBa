@@ -80,13 +80,13 @@
 
         gadjetlab-roba {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                   &kp Y         &kp U  &lt 5 I    &kp O           &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G          &kp ESCAPE                &kp MINUS      &kp H         &kp J  &kp K      &kp L           &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B          &to 7                     &kp SEMICOLON  &kp N         &kp M  &kp COMMA  &kp APOSTROPHE  &mt SLASH UNDER
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 GRAVE  &kp BACKSPACE  &lt_to_layer_0 3 TAB      &lt 2 SPACE    &lt 1 PERIOD                                    &kp DEL
+&kp Q             &kp W         &kp E         &kp R                   &kp T                                                   &kp Y         &kp U  &lt 6 I   &kp O     &kp P
+&kp A             &kp S         &kp D         &kp F                   &kp G          &kp ESCAPE                &kp MINUS      &kp H         &kp J  &kp K     &kp L     &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B          &to 7                     &kp SEMICOLON  &kp N         &kp M  &mkp MB1  &mkp MB2  &mt SLASH UNDER
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 GRAVE  &kp BACKSPACE  &lt_to_layer_0 3 TAB      &lt 2 SPACE    &lt 1 PERIOD                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_UP>;
         };
 
         FUNCTION {
@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp KP_NUMBER_0             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COLON                                                      &kp CARET         &kp AMPERSAND  &kp TILDE       &kp LEFT_PARENTHESIS  &kp ASTRK
+&kp KP_NUMBER_0             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp DOUBLE_QUOTES  &kp LC(LA(KP_NUMBER_0))      &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp AT_SIGN    &kp HASH        &kp DOLLAR            &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD         &kp EQUAL                    &trans         &kp RBKT          &kp BACKSLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &mkp MB4           &mkp MB5                     &trans         &trans                                                                 &kp PIPE
             >;
         };
 
@@ -150,7 +150,7 @@
 &kp Q               &kp L         &kp U         &kp COMMA             &kp PERIOD                                                                        &kp F        &kp W  &kp R  &kp Y  &kp P
 &mt LEFT_CONTROL E  &kp I         &kp A         &kp O                 &kp SLASH             &kp ESCAPE                      &kp MINUS                   &kp K        &kp T  &kp N  &kp S  &kp H
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                 &kp SEMICOLON         &to 0                           &kp EQUAL                   &kp G        &kp D  &kp M  &kp Z  &kp B
-&kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 F10  &mt LEFT_SHIFT SPACE  &lt_to_layer_0 5 LC(SPACE)      &mt LEFT_CONTROL BACKSPACE  &lt 2 ENTER                       &kp J
+&kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 F10  &mt LEFT_SHIFT SPACE  &lt_to_layer_0 6 LC(SPACE)      &mt LEFT_CONTROL BACKSPACE  &lt 2 ENTER                       &kp J
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
