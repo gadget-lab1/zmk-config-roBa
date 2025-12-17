@@ -148,8 +148,8 @@
         layer_7 {
             bindings = <
 &kp Q               &kp L         &kp U         &kp COMMA             &kp PERIOD                                                                        &kp F        &kp W  &kp R  &kp Y  &kp P
-&mt LEFT_CONTROL E  &kp I         &kp A         &kp O                 &kp SLASH             &kp ESCAPE                      &kp MINUS                   &kp K        &kp T  &kp N  &kp S  &kp H
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                 &kp SEMICOLON         &to 0                           &kp EQUAL                   &kp G        &kp D  &kp M  &kp Z  &kp B
+&mt LEFT_CONTROL E  &kp I         &kp A         &kp O                 &kp SLASH             &to 0                           &kp MINUS                   &kp K        &kp T  &kp N  &kp S  &kp H
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                 &kp SEMICOLON         &kp ESCAPE                      &kp EQUAL                   &kp G        &kp D  &kp M  &kp Z  &kp B
 &kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 F10  &mt LEFT_SHIFT SPACE  &lt_to_layer_0 6 LC(SPACE)      &mt LEFT_CONTROL BACKSPACE  &lt 2 ENTER                       &kp J
             >;
 
