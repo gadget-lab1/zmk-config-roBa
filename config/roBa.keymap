@@ -87,7 +87,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 GRAVE  &kp PERIOD  &lt_to_layer_0 3 TAB      &lt 2 SPACE    &lt 1 BACKSPACE                                     &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         FUNCTION {
@@ -146,15 +146,26 @@
             >;
         };
 
-        layer_7 {
+        ohnishi {
             bindings = <
 &kp Q               &kp L         &kp U         &kp COMMA             &kp PERIOD                                                                        &kp F        &kp W  &kp R  &kp Y  &kp P
-&mt LEFT_CONTROL E  &kp I         &kp A         &kp O                 &kp SLASH             &to 0                           &kp MINUS                   &kp K        &kp T  &kp N  &kp S  &kp H
+&mt LEFT_CONTROL E  &kp I         &kp A         &kp O                 &kp SLASH             &to 8                           &kp MINUS                   &kp K        &kp T  &kp N  &kp S  &kp H
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                 &kp SEMICOLON         &kp ESCAPE                      &kp EQUAL                   &kp G        &kp D  &kp M  &kp Z  &kp B
-&kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 F10  &mt LEFT_SHIFT SPACE  &lt_to_layer_0 6 LC(SPACE)      &mt LEFT_CONTROL BACKSPACE  &lt 2 ENTER                       &kp J
+&kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 F10  &mt LEFT_SHIFT SPACE  &lt_to_layer_0 3 LC(SPACE)      &lt_to_layer_0 1 BACKSPACE  &lt 2 ENTER                       &kp J
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+        };
+
+        mac {
+            bindings = <
+&kp Q             &kp W            &kp E         &kp R            &kp T                                   &kp Y            &kp Y  &mt LEFT_SHIFT I  &kp O     &kp P
+&kp A             &kp S            &kp D         &kp F            &kp G    &to 0           &kp MINUS      &kp H            &kp J  &kp K             &kp L     &kp ENTER
+&mt LEFT_SHIFT Z  &kp X            &kp C         &kp V            &kp B    &kp ESCAPE      &kp SEMICOLON  &kp N            &kp M  &mkp MB1          &mkp MB2  &lt 5 COMMA
+&kp LEFT_COMMAND  &kp PRINTSCREEN  &kp LEFT_ALT  &lt 6 LC(SPACE)  &kp DOT  &lt 3 TAB       &lt 2 SPACE    &lt 1 BACKSPACE                                     &kp DEL
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
     };
 };
