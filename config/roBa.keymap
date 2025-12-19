@@ -51,7 +51,7 @@
         };
 
         under {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp INT_RO>;
             key-positions = <24 25>;
         };
     };
