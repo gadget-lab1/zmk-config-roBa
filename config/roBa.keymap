@@ -159,7 +159,7 @@
 
         mac {
             bindings = <
-&kp Q             &kp W            &kp E         &kp R            &kp T                                   &kp Y            &kp Y  &mt LEFT_SHIFT I  &kp O     &kp P
+&kp Q             &kp W            &kp E         &kp R            &kp T                                   &kp Y            &kp U  &mt LEFT_SHIFT I  &kp O     &kp P
 &kp A             &kp S            &kp D         &kp F            &kp G    &to 0           &kp MINUS      &kp H            &kp J  &kp K             &kp L     &kp ENTER
 &mt LEFT_SHIFT Z  &kp X            &kp C         &kp V            &kp B    &kp ESCAPE      &kp SEMICOLON  &kp N            &kp M  &mkp MB1          &mkp MB2  &lt 5 COMMA
 &kp LEFT_COMMAND  &kp PRINTSCREEN  &kp LEFT_ALT  &lt 6 LC(SPACE)  &kp DOT  &lt 3 TAB       &lt 2 SPACE    &lt 1 BACKSPACE                                     &kp DEL
