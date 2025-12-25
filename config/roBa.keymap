@@ -81,10 +81,10 @@
 
         gadjetlab-roba {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                &kp Y            &kp U  &mt LEFT_SHIFT I  &kp O     &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G       &to 7                     &kp MINUS      &kp H            &kp J  &kp K             &kp L     &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B       &kp ESCAPE                &kp SEMICOLON  &kp N            &kp M  &mkp MB1          &mkp MB2  &lt 5 COMMA
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 GRAVE  &kp PERIOD  &lt_to_layer_0 3 TAB      &lt 2 SPACE    &lt 1 BACKSPACE                                     &kp DEL
+&kp Q             &kp W         &kp E         &kp R                   &kp T                                                &kp Y        &kp U  &mt LEFT_SHIFT I  &kp O     &kp P
+&kp A             &kp S         &kp D         &kp F                   &kp G       &to 7                     &kp MINUS      &kp H        &kp J  &kp K             &kp L     &kp BACKSPACE
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B       &kp ESCAPE                &kp SEMICOLON  &kp N        &kp M  &mkp MB1          &mkp MB2  &lt 5 COMMA
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 GRAVE  &kp PERIOD  &lt_to_layer_0 3 TAB      &lt 2 ENTER    &lt 1 SPACE                                     &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
@@ -92,7 +92,7 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans              &kp LG(UP_ARROW)    &kp LC(Z)            &kp LC(Y)                                  &kp F1         &kp F2  &kp F3  &kp F4  &kp F5
+&trans  &kp LC(Y)           &kp LG(UP_ARROW)    &kp LC(Z)            &kp LC(Y)                                  &kp F1         &kp F2  &kp F3  &kp F4  &kp F5
 &trans  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(A)        &trans           &kp F13  &kp F6         &kp F7  &kp F8  &kp F9  &kp F10
 &trans  &trans              &trans              &kp LC(X)            &kp LC(C)        &kp LC(V)        &trans   &kp LS(LG(S))  &trans  &trans  &trans  &kp F11
 &trans  &trans              &trans              &trans               &kp LA(LS(TAB))  &kp LA(TAB)      &trans   &trans                                 &kp F12
@@ -103,7 +103,7 @@
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COLON                                                      &kp CARET         &kp AMPERSAND  &kp TILDE       &kp ASTRK        &kp LEFT_PARENTHESIS
 &kp KP_NUMBER_0             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp DOUBLE_QUOTES  &kp LC(LA(KP_NUMBER_0))      &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp AT_SIGN    &kp HASH        &kp DOLLAR       &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD         &kp EQUAL                    &trans         &kp RBKT          &kp BACKSLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
+&mt LEFT_SHIFT EXCLAMATION  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD         &kp EQUAL                    &kp KP_PLUS    &kp RBKT          &kp BACKSLASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
 &trans                      &trans           &trans           &trans           &mkp MB4           &mkp MB5                     &trans         &trans                                                            &kp PIPE
             >;
         };
