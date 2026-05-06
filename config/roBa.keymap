@@ -32,7 +32,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <12>;
+            key-positions = <12 11>;
         };
 
         shift_tab {
