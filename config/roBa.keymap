@@ -66,7 +66,7 @@
         };
 
         sc4 {
-            bindings = <&kp LS(LG(NUMBER_4))>;
+            bindings = <&kp LS(LG(N4))>;
             key-positions = <3 2>;
         };
     };
