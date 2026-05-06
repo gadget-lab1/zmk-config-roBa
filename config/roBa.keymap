@@ -54,6 +54,21 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <18 19>;
         };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <13 14>;
+        };
+
+        sc5 {
+            bindings = <&kp LS(LG(N5))>;
+            key-positions = <4 3>;
+        };
+
+        sc4 {
+            bindings = <&kp LS(LG(NUMBER_4))>;
+            key-positions = <3 2>;
+        };
     };
 
     macros {
